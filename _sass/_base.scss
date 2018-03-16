@@ -4,6 +4,7 @@
 // https://source.unsplash.com for placeholder images
 
 $light-gray: #F9F9F9;
+$gray: #fafafa;
 
 #banner {
   background-image: url('https://source.unsplash.com/random/1600x880/?library');
@@ -30,6 +31,10 @@ $light-gray: #F9F9F9;
 
 .light-gray {
   background-color: $light-gray;
+}
+
+.gray {
+  background-color: $gray;
 }
 
 .card {
