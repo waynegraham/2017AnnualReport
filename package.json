@@ -5,7 +5,10 @@
   "main": "gulpfile.js",
   "author": "Wayne Graham",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "jquery-smooth-scroll": "^2.2.0",
+    "jquery.nicescroll": "^3.7.6"
+  },
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "dotenv": "^4.0.0",

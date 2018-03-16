@@ -6,16 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Recipes
+title: CLIR 2016-2018 Annual Report
 author: Wayne Graham
 email: wayne.graham@gmail.com
 twitter_username: wayne_graham
 github_username:  waynegraham
-instagram: wsgrah
 description: > # this means to ignore newlines until "baseurl:"
-  Recipes I've collected and want to be able to find again.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 baseurl: "/recipes"
-url: "https://waynegraham.github.io"
+url: "https://waynegraham.github.io/2017AnnualReport"
 google_analytics_key:
 
 paginate: 20
@@ -38,19 +37,14 @@ plugins:
 feed:
   path: atom.xml
 
-collections:
-  recipes:
-    output: true
-    title: recipes
-    layout: recipe
-    permalink: /recipes/:path/
-
 exclude:
   - gulpfile.js
   - node_modules
+  - package-lock.json
   - package.json
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
